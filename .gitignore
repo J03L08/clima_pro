@@ -1,0 +1,83 @@
+# -------------------------------
+# SISTEMAS / ARCHIVOS BASURA
+# -------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# -------------------------------
+# FLUTTER / DART
+# -------------------------------
+.dart_tool/
+.packages
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+
+# No subir el lock a proyectos multiplataforma
+# Puedes dejarlo si tu profe lo pide
+pubspec.lock
+
+# -------------------------------
+# BUILD / COMPILADOS
+# -------------------------------
+/build/
+coverage/
+**/ios/Flutter/.last_build_id
+
+# Android Studio
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/local.properties
+
+# iOS
+**/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+web/flutter.js
+web/flutter_bootstrap.js
+
+# -------------------------------
+# IDEs
+# -------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# -------------------------------
+# ARCHIVOS SENSIBLES
+# -------------------------------
+# Firebase keys
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Keystore Android
+*.jks
+*.keystore
+key.properties
+
+# Variables de entorno
+.env
+
+# -------------------------------
+# MAPAS Y SIMBOLOS (OBFUSCATION)
+# -------------------------------
+app.*.symbols
+app.*.map.json
