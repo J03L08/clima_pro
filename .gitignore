@@ -75,7 +75,7 @@ key.properties
 .env
 
 # -------------------------------
-# MAPAS Y SIMBOLOS (OBFUSCATION)
+# MAPAS Y SIMBOLOS
 # -------------------------------
 app.*.symbols
 app.*.map.json
