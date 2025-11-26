@@ -23,8 +23,6 @@ migrate_working_dir/
 .pub/
 .pub-cache/
 
-# No subir el lock a proyectos multiplataforma
-# Puedes dejarlo si tu profe lo pide
 pubspec.lock
 
 # -------------------------------
