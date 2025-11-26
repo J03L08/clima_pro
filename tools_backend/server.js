@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const admin = require('firebase-admin');
 
-// 👇 Ajusta la ruta a tu archivo de credenciales de servicio
 const serviceAccount = require('./serviceAccountKey.json');
 
 admin.initializeApp({
@@ -23,7 +22,6 @@ app.post('/api/solicitudes', async (req, res) => {
     const body = req.body;
     console.log('Solicitud recibida en backend:', body);
 
-    // Reconstruimos la data similar a lo que guardas en RequestsService
     const now = new Date();
 
     const data = {
